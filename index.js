@@ -20,16 +20,16 @@ function close(){
 const containerSecondModal = document.getElementById('containerSecondModal')
 
 const openButton1 = document.getElementById('openSecondModal')
-openButton1.onclick = open;
+openButton1.onclick = open1;
 
-function open(){
+function open1(){
   containerSecondModal.style.display = 'block'
-  console.log('hola')
+  console.log('hola1')
 }
 
 const closeSecondButton = document.getElementById('closeSecondButton')
-closeSecondButton.onclick = close;
-function close(){
+closeSecondButton.onclick = close1;
+function close1(){
   containerSecondModal.style.display = 'none'
-  console.log('chao')
+  console.log('chao1')
 }
