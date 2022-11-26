@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Modal</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container-buttons">
+            <button id="openFirstModal">Open Modal #1</button>
+            <button id="openSecondModal">Open Modal #2</button>
+        </div>
+
+        <!-- FIRST MODAL -->
+        <div id="containerModal" class="container-modal">
+            <div class="subcontainer-modal">
+                <button id="closeButton">x</button>
+                <div class="modal">
+                    <h2>First Modal</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum delectus at itaque ipsum quos tempora optio commodi sit assumenda, minima ratione exercitationem. Asperiores vero maxime laudantium eum laboriosam odio nobis?</span>
+                </div>
+            </div>
+        </div>
+        <!-- END FIRST MODAL -->
+
+        <!-- SECOND MODAL -->
+        <div id="containerSecondModal" class="container-modal">
+            <div class="subcontainer-modal">
+                <button id="closeSecondButton">x</button>
+                <div class="modal">
+                    <h2>Second Modal</h2>
+                    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum delectus at itaque ipsum quos tempora optio commodi sit assumenda, minima ratione exercitationem. Asperiores vero maxime laudantium eum laboriosam odio nobis?</span>
+                </div>
+            </div>
+        </div>
+        <!-- END SECOND MODAL -->
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
